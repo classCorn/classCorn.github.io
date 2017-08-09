@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-	  background-color: #FFDEAD;
-	}
+    background-color: #FFF8DC;
+}
+
+tstyle1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D2B48C;
+    font-size: 20pt;
+    text-align: right ;
+    font-weight: 400;
+}
+
+hr{
+    border: none;
+    color: #F5DEB3;
+    background-color: #D2B48C;
+    height: 1pt;
+}
