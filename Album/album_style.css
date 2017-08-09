@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 body {
-    background: url('https://unsplash.it/800?image=1008') 0 0 no-repeat;
+    background: url('img/bkgrn.jpeg') 0 0 no-repeat;
     background-size: 135%;
 }
 h2{
@@ -18,7 +18,7 @@ h2{
     font-family: 'Open Sans', sans-serif;
 }
 .albums-tab {
-    transform: scale(0.5);
+    transform: scale(0.9);
 }
 .albums-tab-thumb {
     margin-top: 60px;
