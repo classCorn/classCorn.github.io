@@ -10,6 +10,14 @@ body{
     background: url(img/bkgrn.jpeg) no-repeat ;
     background-size: 100%;
 }
+    
+.start img{
+    top: 30%;
+    left: 30%;
+    width: auto;
+    height: 30%;
+    border: 2em solid rgba(100,200,250,0.3);
+}
 }
 
 
@@ -18,8 +26,6 @@ body{
     background: url(img/m-bkgrn.jpeg) no-repeat ; 
     background-size: 100%;
 }
-}
-
 .start img{
     top: 30%;
     left: 30%;
@@ -27,8 +33,15 @@ body{
     height: auto ;
     border: 2em solid rgba(100,200,250,0.3);
 }
-
-/* Transformations */
+}
+/*
+.start img{
+    top: 30%;
+    left: 30%;
+    width: 30%;
+    height: auto ;
+    border: 2em solid rgba(100,200,250,0.3);
+}*/
 
 .anim img {
     position: absolute;
