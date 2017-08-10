@@ -18,3 +18,16 @@ hr{
     background-color: #D2B48C;
     height: 1pt;
 }
+
+.button {
+    background-color: none;
+    border: 3px solid #D2B48C;
+    color: #D2B48C;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 40px 2px;
+    border-radius: 4px;
+}
