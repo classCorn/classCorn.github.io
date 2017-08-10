@@ -1,8 +1,12 @@
-html{
+/*html{
     background: url(img/bkgrn.jpeg) no-repeat top center fixed; 
     background-size: cover;
     background-color: lightgray;
+}*/
 
+body{
+height: 100%;
+background-image: url(img/bkgrn.jpeg);
 }
 
 
