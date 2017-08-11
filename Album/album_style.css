@@ -10,12 +10,11 @@ body{
     background: url(img/bkgrn.jpeg) no-repeat ;
     background-size: 100%;
 }
-    
 .start img{
     top: 30%;
     left: 30%;
     width: auto;
-    height: 30%;
+    height: 30% ;
     border: 2em solid rgba(100,200,250,0.3);
 }
 }
@@ -23,7 +22,7 @@ body{
 
 @media only screen and (orientation: portrait) {
 body{
-    background: url(img/m-bkgrn.jpeg) no-repeat ; 
+    background: url(himg/m-bkgrn.jpeg) no-repeat fixed; 
     background-size: 100%;
 }
 .start img{
@@ -33,25 +32,54 @@ body{
     height: auto ;
     border: 2em solid rgba(100,200,250,0.3);
 }
+
+.front img{
+    transition: all 1.0s;
+    transform: scale(2.2, 2.2) rotate(0deg) translate(0%, 25%);
+    border: 0.5em solid rgba(200,255,255,1);
 }
-/*
-.start img{
-    top: 30%;
-    left: 30%;
-    width: 30%;
-    height: auto ;
-    border: 2em solid rgba(100,200,250,0.3);
-}*/
+}
 
 .anim img {
-    position: absolute;
-    transition: all 1.0s;
+    position: absolute  ;
+    transition: all 5.0s;
 }
 
 .anim:hover img:nth-child(1) {
-    transform: translate(-35%, -85%) scale(1.0, 1.0) rotate(-20deg);
+    transform: translate(40%, -70%) scale(1.0, 1.0) rotate(0deg);
 }
 
 .anim:hover img:nth-child(2) {
-    transform: translate(-80%, 35%) scale(1.0, 1.0) rotate(-20deg);
+    transform: translate(-40%, -40%) scale(1.0, 1.0) rotate(10deg);
+}
+
+.anim:hover img:nth-child(3) {
+    transform: translate(5%, 30%) scale(1.0, 1.0) rotate(-5deg);
+}
+
+.anim:hover img:nth-child(4) {
+    transform: translate(0%, 290%) scale(2.0, 2.0) rotate(-40deg);
+    border: 1em solid rgba(100,200,250,0.3);;
+}
+
+.anim:hover img:nth-child(5) {
+    transform: translate(30%, 190%) scale(1.0, 1.0) rotate(5deg);
+}
+.anim:hover img:nth-child(6) {
+    transform: translate(-45%, 190%) scale(1.0, 1.0) rotate(0deg);
+}
+.anim:hover img:nth-child(7) {
+    transform: translate(30%, 240%) scale(1.0, 1.0) rotate(0deg);
+    
+}
+.anim:hover img:nth-child(8) {
+    transform: translate(-20%, 400%) scale(1.0, 1.0) rotate(-10deg);
+}
+
+.anim:hover img:nth-child(9) {
+    transform: translate(15%, 530%) scale(1.0, 1.0) rotate(0deg);
+}
+
+.anim:hover img:nth-child(10) {
+    transform: translate(0%, 650%) scale(1.0, 1.0) rotate(0deg);
 }
