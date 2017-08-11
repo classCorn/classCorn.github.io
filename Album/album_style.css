@@ -22,7 +22,7 @@ body{
 
 @media only screen and (orientation: portrait) {
 body{
-    background: url(himg/m-bkgrn.jpeg) no-repeat fixed; 
+    background: src(img/m-bkgrn.jpeg) no-repeat fixed; 
     background-size: 100%;
 }
 .start img{
