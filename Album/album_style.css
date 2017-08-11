@@ -7,7 +7,7 @@ body{
 
 @media only screen and (orientation: landscape) {
 body{
-    background: url(img/bkgrn.jpeg) no-repeat ;
+    background: src(img/bkgrn.jpeg) no-repeat ;
     background-size: 100%;
 }
 .start img{
