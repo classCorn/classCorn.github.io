@@ -1,0 +1,64 @@
+body{
+    background-color: lightgray;
+}
+
+@media only screen and (orientation: landscape) {
+    body{
+           background: url(img/l_bg.png) no-repeat ;
+           background-size: 100%;
+    }
+    font{
+            size: 50px;
+        }
+	head-title{
+             font-family: 'Heebo', sans-serif;
+             color: white;
+             font-size: 50pt;
+             text-align: left;
+             text-shadow: 10px 10px 10px #000;
+         }
+    #head_img{
+            height:120px;
+            width:120px;
+            line-height:120px;
+            text-align:center;
+    }
+     main-text{
+                    font-family: 'Heebo', sans-serif;
+                    color: white;
+                    font-size: 15pt;
+                    text-align: left;
+                    text-shadow: 5px 5px 5px #000;
+        }
+}
+
+
+@media only screen and (orientation: portrait) {
+	body{
+ 	        background: url(img/p_bg.png) no-repeat fixed;
+ 	        background-size: 100%;
+	}
+	font{
+	        size: 20px;
+	}
+	head-title{
+                 font-family: 'Josefin Sans', sans-serif;
+                 color: white;
+                 font-size: 20pt;
+                 text-align: left;
+    }
+    #head_img{
+                 height:60px;
+                 width:60px;
+                 line-height:60px;
+                 text-align:center;
+    }
+    main-text{
+                font-family: -apple-system, "BlinkMacSystemFont", sans-serif;
+                color: white;
+                font-size: 15pt;
+                text-align: left;
+    }
+
+}
+
