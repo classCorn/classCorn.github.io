@@ -4,8 +4,9 @@ body{
 
 @media only screen and (orientation: landscape) {
     body{
-           background: url(img/l_bg.png) no-repeat ;
+           background: url(img/l_bg.png) no-repeat fixed;
            background-size: 100%;
+
     }
     font{
             size: 50px;
@@ -26,10 +27,17 @@ body{
      main-text{
                     font-family: 'Heebo', sans-serif;
                     color: white;
-                    font-size: 15pt;
+                    font-size: 18pt;
                     text-align: left;
                     text-shadow: 5px 5px 5px #000;
-        }
+      }
+      link-doc{
+                   font-family: 'Heebo', sans-serif;
+                   color: #48abbe;
+                   font-size: 12pt;
+                   text-align: left;
+                   text-shadow: 10px 10px 5px #000;
+               }
 }
 
 
@@ -42,10 +50,11 @@ body{
 	        size: 20px;
 	}
 	head-title{
-                 font-family: 'Josefin Sans', sans-serif;
+                 font-family: 'Heebo', sans-serif;
                  color: white;
                  font-size: 20pt;
                  text-align: left;
+                 text-shadow: 10px 10px 10px #000;
     }
     #head_img{
                  height:60px;
@@ -54,10 +63,11 @@ body{
                  text-align:center;
     }
     main-text{
-                font-family: -apple-system, "BlinkMacSystemFont", sans-serif;
+                font-family: 'Heebo', sans-serif;
                 color: white;
                 font-size: 15pt;
                 text-align: left;
+                text-shadow: 5px 5px 5px #000;
     }
 
 }
