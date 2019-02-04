@@ -5,12 +5,8 @@ body{
 @media only screen and (orientation: landscape) {
     body{
            background: url(img/l_bg.png) no-repeat fixed;
-           background-size: 100%;
-
+           background-size: 100% 100%;
     }
-    font{
-            size: 50px;
-        }
 	head-title{
              font-family: 'Heebo', sans-serif;
              color: white;
@@ -24,27 +20,55 @@ body{
             line-height:120px;
             text-align:center;
     }
-     main-text{
+    main-text{
                     font-family: 'Heebo', sans-serif;
                     color: white;
-                    font-size: 18pt;
+                    font-size: 22pt;
                     text-align: left;
                     text-shadow: 5px 5px 5px #000;
       }
-      link-doc{
+    link-doc{
                    font-family: 'Heebo', sans-serif;
                    color: #48abbe;
                    font-size: 12pt;
                    text-align: left;
                    text-shadow: 10px 10px 5px #000;
                }
+
+    #table_left_desk {
+           display: block;
+      }
+    #table_left_phone {
+          display: none;
+      }
+
+    #table_head_desk {
+             display: block;
+    }
+    #table_head_phone {
+            display: none;
+    }
+
+     #table_first_desk {
+               display: block;
+          }
+     #table_first_phone {
+              display: none;
+     }
+
+     #table_main_desk {
+                    display: block;
+               }
+          #table_main_phone {
+                   display: none;
+          }
 }
 
 
 @media only screen and (orientation: portrait) {
 	body{
  	        background: url(img/p_bg.png) no-repeat fixed;
- 	        background-size: 100%;
+ 	         background-size: 100% 100%;
 	}
 	font{
 	        size: 20px;
@@ -57,18 +81,52 @@ body{
                  text-shadow: 10px 10px 10px #000;
     }
     #head_img{
-                 height:60px;
-                 width:60px;
-                 line-height:60px;
+                 height:30px;
+                 width:30px;
+                 line-height:30px;
                  text-align:center;
     }
+    link-doc{
+                       font-family: 'Heebo', sans-serif;
+                       color: #48abbe;
+                       font-size: 10pt;
+                       text-align: left;
+                       text-shadow: 5px 5px 5px #000;
+                   }
     main-text{
                 font-family: 'Heebo', sans-serif;
                 color: white;
                 font-size: 15pt;
                 text-align: left;
-                text-shadow: 5px 5px 5px #000;
+                text-shadow: 2px 2px 2px #000;
     }
 
+    #table_left_desk {
+        display: none;
+    }
+    #table_left_phone {
+        display: block;
+    }
+
+    #table_head_desk {
+           display: none;
+        }
+    #table_head_phone {
+            display: block;
+    }
+
+     #table_first_desk {
+                  display: none;
+              }
+     #table_first_phone {
+                 display: block;
+     }
+
+     #table_main_desk {
+                display: none;
+                    }
+     #table_main_phone {
+                display: block;
+     }
 }
 
