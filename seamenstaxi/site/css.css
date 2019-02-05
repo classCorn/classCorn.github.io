@@ -85,12 +85,18 @@ body{
      #table_main_phone {
         display: none;
      }
-     #table_doc {
-        margin-left:200px;
-        margin-right:120px;
-        width:70%;
-     }
-
+    #table_doc_desk {
+               display: block;
+         }
+         #table_doc_phone {
+               display: none;
+         }
+    #table_doc{
+            margin-top:40px;
+            margin-left:200px;
+            margin-right:120px;
+            width:70%;
+    }
 }
 
 /* ---------------------------------------------------------------PORTRAIT*/
@@ -161,10 +167,17 @@ body{
      #table_main_phone {
                 display: block;
      }
-     #table_doc {
-        margin-left:10px;
-        margin-right:10px;
-        width:90%;
+     #table_doc_desk {
+           display: none;
      }
+     #table_doc_phone {
+           display: block;
+     }
+     #table_doc{
+                 margin-top:40px
+                 ;margin-left:10px;
+                 margin-right:10px;
+                 width:95%;
+                 font-size:10pt;
+         }
 }
-
