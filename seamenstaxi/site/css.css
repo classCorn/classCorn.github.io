@@ -162,9 +162,9 @@ body{
                 display: block;
      }
      #table_doc {
-        margin-left:0px;
-        margin-right:0px;
-        width:70%;
+        margin-left:10px;
+        margin-right:10px;
+        width:90%;
      }
 }
 
