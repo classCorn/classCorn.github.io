@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Heebo";
-    src:url(font/Heebo/Heebo-Thin.ttf);
+    src:url("file:font/Heebo/Heebo-Thin.ttf");
 }
 
 body{
@@ -80,11 +80,17 @@ body{
      }
 
      #table_main_desk {
-                    display: block;
-               }
-          #table_main_phone {
-                   display: none;
-          }
+        display: block;
+     }
+     #table_main_phone {
+        display: none;
+     }
+     #table_doc {
+        margin-left:200px;
+        margin-right:120px;
+        width:70%;
+     }
+
 }
 
 /* ---------------------------------------------------------------PORTRAIT*/
@@ -96,6 +102,10 @@ body{
 	font{
 	        size: 20px;
 	}
+	.button {
+               padding: 10px 10px;
+               font-size: 15pt;
+           }
 	head-title{
                  font-family: 'Heebo', sans-serif;
                  color: white;
@@ -150,6 +160,9 @@ body{
                     }
      #table_main_phone {
                 display: block;
+     }
+     #table_doc {
+        width:100%;
      }
 }
 
